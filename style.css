@@ -34,12 +34,15 @@
     color: #1A535C;
     border: none;
     border-radius: 3px;
+    font-weight: bold;
+    font-size: larger;
 }
 
 #cc {
     font-size: 2.4rem;
     margin: 1rem;
     color: #F7FFF7;
+    text-shadow: 3px 3px #1A535C;
 }
 
 #convnu::placeholder {
@@ -56,12 +59,12 @@
 
 .curr {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #FFE66D;
     border-radius: 10px;
     padding: 1rem;
-    /* margin-top: 10px; */
+    background-color: #FFE66D;
+    margin-top: 3px;
 }
 
 
@@ -73,11 +76,15 @@
     outline: 0px;
     border-radius: 4px;
     font-size: 20px;
+
 }
 
 label {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    border-radius: 2px;
+    padding: 3px;
+
 }
 
 #res {

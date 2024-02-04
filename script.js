@@ -4,6 +4,9 @@ let k = document.querySelectorAll("select")
 let fromflag = document.getElementById("fromflag")
 let toflag = document.getElementById("toflag")
 let rev = document.getElementById("rev");
+// let main = document.getElementById("main")
+// const colors = ["#1a535cff", "#4ecdc4ff", "#f7fff7ff", "#ff6b6bff", "#ffe66dff"]
+
 
 // updating options
 for (let i in countryList) {
@@ -45,6 +48,8 @@ let exchbut = document.getElementById("exchbut")
 exchbut.addEventListener("click", (e) => {
     e.preventDefault()
     conve()
+    // main.setAttribute("background-color", colors[Math.floor(Math.random() * 3)])
+    // console.log(main.getAttribute("background-color"));
 
 })
 
