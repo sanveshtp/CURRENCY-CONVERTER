@@ -14,10 +14,9 @@ for (let i in countryList) {
         fromcurr.innerHTML += `<option value=${i} selected >${i}</option>`
     } else if (i == "INR") {
         tocurr.innerHTML += `<option value=${i} selected >${i}</option>`
-    } else {
-        fromcurr.innerHTML += `<option value=${i}>${i}</option>`
-        tocurr.innerHTML += `<option value=${i}>${i}</option>`
     }
+    fromcurr.innerHTML += `<option value=${i}>${i}</option>`
+    tocurr.innerHTML += `<option value=${i}>${i}</option>`
 
 }
 
